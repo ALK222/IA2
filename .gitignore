@@ -4,6 +4,8 @@ labs/lab3/data
 __pycache__/
 *.py[cod]
 *$py.class
+.conda/
+*/glove.6B.50d.txt
 
 # C extensions
 *.so

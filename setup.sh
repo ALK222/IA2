@@ -1,8 +1,3 @@
 #!/usr/bin/env bash
 
-mkdir ./labs
-
-cd ./labs
-python3 -m venv .venv
-
-source .venv/bin/activate
+conda create --prefix "$(pwd)"/.conda --file requirements.txt --channel conda-forge python=3.11 --yes
